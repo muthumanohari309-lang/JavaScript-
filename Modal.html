@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="OpenPopup()">Open Popup</button>
+        <div id="popup" style="display: none;background-color: lightgray; padding: 20px; border: 1px solid black;">
+            <p>This is a simple modal popup!</p>
+            <button onclick="ClosePopup()">Close</button>
+        </div>
+        <script>
+            function OpenPopup() {
+                document.getElementById("popup").style.display = "block";
+            }
+            function ClosePopup() {
+                document.getElementById("popup").style.display = "none";
+            }
+        </script>
+    </body>
+</html>
