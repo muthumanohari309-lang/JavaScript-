@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="btn">Click Me</button>
+        <Script>
+            let btn=document.grtElementById("btn");
+            btn.addEventListener("Click",funtion())
+            {
+                btn.style.transform="translateX(-5px)";
+                SetTimeOut(function(){
+                    btn.style.transform="translateX(5px)";
+                },100);
+                SetTimeOut(function(){
+                    btn.style.transform="translateX(0)";
+                },200);
+            };
+        </Script>
+    </body>
+</html>
